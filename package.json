@@ -1,0 +1,40 @@
+{
+  "name": "nodo-codo-a-codo",
+  "version": "1.0.0",
+  "description": "Proyecto comunitario sin fines de lucro dedicado a la educación tecnológica y reinserción laboral",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx live-server --port=3000 --host=localhost",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "educación",
+    "tecnología",
+    "reinserción-laboral",
+    "ia-gratuita",
+    "comunidad",
+    "sin-fines-de-lucro",
+    "alfabetización-digital",
+    "ciberseguridad",
+    "marketing-digital"
+  ],
+  "author": "Nodo Codo a Codo",
+  "license": "MIT",
+  "homepage": "https://nodocodoancodo.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tu-usuario/nodo-codo-a-codo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/nodo-codo-a-codo/issues"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

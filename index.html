@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self' https:;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    
+    <!-- SEO and Social -->
+    <title>Nodo Codo a Codo - Tecnología Accesible</title>
+    <meta name="description" content="Proyecto comunitario sin fines de lucro dedicado a la educación tecnológica y reinserción laboral. Aprende tecnología, IA gratuita y habilidades digitales.">
+    <meta name="keywords" content="educación tecnológica, reinserción laboral, IA gratuita, alfabetización digital, comunidad, tecnología accesible">
+    <meta name="author" content="Nodo Codo a Codo">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Nodo Codo a Codo - Tecnología Accesible">
+    <meta property="og:description" content="Proyecto comunitario sin fines de lucro dedicado a la educación tecnológica y reinserción laboral.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nodocodoancodo.org">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" as="style">
+    <link rel="preload" href="styles.css" as="style">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Nodo Codo a Codo</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#que-es">¿Qué es?</a></li>
+                <li><a href="#aprendizaje">Aprendizaje</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Nodo Codo a Codo</span>
+                </h1>
+                <p class="hero-subtitle">Tecnología accesible. Aprendizaje real. Juntos.</p>
+                <p class="hero-description">
+                    Un proyecto comunitario sin fines de lucro dedicado a la <strong>educación tecnológica y reinserción laboral</strong>. 
+                    Conectamos personas que quieren aprender con mentores dispuestos a enseñar, 
+                    <strong>y te enseñamos a usar herramientas de IA gratuitas</strong> como complemento a tu aprendizaje.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#que-es" class="btn btn-primary">Conocer más</a>
+                    <a href="#contacto" class="btn btn-secondary">Únete ahora</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-cards">
+                    <div class="card-float card-1">
+                        <i class="fas fa-laptop"></i>
+                        <span>Computadoras</span>
+                    </div>
+                    <div class="card-float card-2">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Celulares</span>
+                    </div>
+                    <div class="card-float card-3">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Tecnología</span>
+                    </div>
+                    <div class="card-float card-4">
+                        <i class="fas fa-robot"></i>
+                        <span>IA Gratuita</span>
+                    </div>
+                    <div class="card-float card-5">
+                        <i class="fas fa-bullhorn"></i>
+                        <span>Marketing</span>
+                    </div>
+                    <div class="card-float card-6">
+                        <i class="fas fa-camera"></i>
+                        <span>Contenido</span>
+                    </div>
+                    <div class="card-float card-7">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Seguridad</span>
+                    </div>
+                    <div class="card-float card-8">
+                        <i class="fas fa-code"></i>
+                        <span>Programación</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is Section -->
+    <section id="que-es" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Qué es Nodo Codo a Codo?</h2>
+                <p>Un espacio donde la tecnología se vuelve accesible para todos</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Comunidad</h3>
+                    <p>Una red horizontal donde nadie es más que nadie, todos aprendemos juntos</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Sin fines de lucro</h3>
+                    <p>Movidos por la pasión de compartir conocimiento y reducir la brecha tecnológica</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Apoyo real</h3>
+                    <p>Formación práctica y acompañada, adaptada a las necesidades de cada persona</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Areas Section -->
+    <section id="aprendizaje" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Qué se puede aprender?</h2>
+                <p>Dividido por ramas temáticas para un aprendizaje organizado</p>
+            </div>
+            <div class="learning-areas">
+                <div class="area-card">
+                    <div class="area-header">
+                        <i class="fas fa-desktop area-icon"></i>
+                        <h3>🖥️ Computadoras</h3>
+                    </div>
+                    <ul class="area-list">
+                        <li>Uso básico (sistema operativo, archivos, navegación web)</li>
+                        <li>Mantenimiento y reparación de PC</li>
+                        <li>Instalación de software libre o útil</li>
+                        <li>Seguridad digital</li>
+                        <li>Hardware básico</li>
+                    </ul>
+                </div>
+                <div class="area-card">
+                    <div class="area-header">
+                        <i class="fas fa-mobile-alt area-icon"></i>
+                        <h3>📱 Celulares</h3>
+                    </div>
+                    <ul class="area-list">
+                        <li>Uso eficiente de Android e iOS</li>
+                        <li>Optimización de espacio y rendimiento</li>
+                        <li>Reparación de hardware</li>
+                        <li>Aplicaciones útiles para el día a día</li>
+                    </ul>
+                </div>
+                <div class="area-card">
+                    <div class="area-header">
+                        <i class="fas fa-lightbulb area-icon"></i>
+                        <h3>💡 Tecnología y vida</h3>
+                    </div>
+                    <ul class="area-list">
+                        <li>Herramientas digitales para el trabajo</li>
+                        <li>Búsqueda laboral online</li>
+                        <li>Creación de CV digitales</li>
+                        <li>Alfabetización digital general</li>
+                    </ul>
+                </div>
+                <div class="area-card">
+                    <div class="area-header">
+                        <i class="fas fa-bullhorn area-icon"></i>
+                        <h3>📈 Marketing Digital Personal</h3>
+                    </div>
+                    <ul class="area-list">
+                        <li>Promocionar tu perfil profesional en redes</li>
+                        <li>Crear presencia digital para conseguir trabajo</li>
+                        <li>LinkedIn para búsqueda laboral</li>
+                        <li>Emprendimientos personales y familiares</li>
+                        <li>Herramientas gratuitas de marketing básico</li>
+                    </ul>
+                </div>
+                <div class="area-card">
+                    <div class="area-header">
+                        <i class="fas fa-camera area-icon"></i>
+                        <h3>📱 Creación de Contenido Personal</h3>
+                    </div>
+                    <ul class="area-list">
+                        <li>Fotografía básica con el celular</li>
+                        <li>Videos simples para redes sociales</li>
+                        <li>Herramientas gratuitas de edición</li>
+                        <li>Contar tu historia personal y profesional</li>
+                        <li>Contenido para mostrar habilidades y talentos</li>
+                    </ul>
+                </div>
+                <div class="area-card">
+                    <div class="area-header">
+                        <i class="fas fa-shield-alt area-icon"></i>
+                        <h3>🔒 Ciberseguridad</h3>
+                    </div>
+                    <ul class="area-list">
+                        <li>Protección de datos personales</li>
+                        <li>Navegación segura en internet</li>
+                        <li>Identificación de estafas y phishing</li>
+                        <li>Gestión segura de contraseñas</li>
+                        <li>Backup y protección de archivos</li>
+                    </ul>
+                </div>
+                <div class="area-card ai-section">
+                    <div class="area-header">
+                        <i class="fas fa-robot area-icon"></i>
+                        <h3>🤖 Herramientas de IA Gratuitas</h3>
+                        <span class="highlight-tag">¡Aprende a usarlas!</span>
+                    </div>
+                    <ul class="area-list">
+                        <li>Cómo usar ChatGPT gratuito para estudiar</li>
+                        <li>Herramientas de IA disponibles sin costo</li>
+                        <li>Crear CV y cartas con asistencia de IA</li>
+                        <li>Resolver dudas básicas con IA gratuita</li>
+                        <li>Practicar idiomas con bots conversacionales</li>
+                        <li>IA como apoyo, no como reemplazo del estudio</li>
+                    </ul>
+                </div>
+                <div class="area-card advanced">
+                    <div class="area-header">
+                        <i class="fas fa-code area-icon"></i>
+                        <h3>💻 Áreas avanzadas</h3>
+                        <span class="optional-tag">Opcionales</span>
+                    </div>
+                    <ul class="area-list">
+                        <li>Programación desde cero</li>
+                        <li>Diseño gráfico</li>
+                        <li>Introducción a IA</li>
+                        <li>Automatización</li>
+                        <li>Soporte técnico</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IA Revolution Section -->
+    <section class="section ai-revolution">
+        <div class="container">
+            <div class="section-header">
+                <h2>🛠️ Herramientas de IA como Apoyo</h2>
+                <p>Te enseñamos a usar herramientas gratuitas de IA como complemento a tu aprendizaje</p>
+            </div>
+            <div class="ai-content">
+                <div class="ai-philosophy">
+                    <div class="ai-card main-ai-card">
+                        <div class="ai-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>IA Gratuita como Herramienta de Apoyo</h3>
+                        <p>Te enseñamos a aprovechar las versiones gratuitas de herramientas de IA disponibles para todos. No prometemos acceso ilimitado, pero sí te mostramos cómo sacar el máximo provecho de lo que está disponible.</p>
+                    </div>
+                </div>
+                <div class="ai-benefits-grid">
+                    <div class="ai-benefit">
+                        <i class="fas fa-user-graduate"></i>
+                        <h4>Profesor Particular Gratuito</h4>
+                        <p>ChatGPT, Claude, Copilot: tu mentor que explica hasta que entiendas</p>
+                    </div>
+                    <div class="ai-benefit">
+                        <i class="fas fa-clock"></i>
+                        <h4>Aprendé a Tu Ritmo</h4>
+                        <p>24/7 disponible, sin prisa, adaptándose a tu tiempo libre</p>
+                    </div>
+                    <div class="ai-benefit">
+                        <i class="fas fa-heart"></i>
+                        <h4>Sin Vergüenza ni Juicios</h4>
+                        <p>Preguntá lo que sea, las veces que necesites, sin miedo al ridículo</p>
+                    </div>
+                    <div class="ai-benefit">
+                        <i class="fas fa-door-open"></i>
+                        <h4>Abre Oportunidades</h4>
+                        <p>Nivela el acceso a educación de calidad para reinserción laboral</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ai-examples">
+                <h3>🎯 En la práctica, vas a aprender a:</h3>
+                <div class="examples-grid">
+                    <div class="example-card">
+                        <span class="example-emoji">�</span>
+                        <p><strong>Crear tu CV perfecto</strong> con ayuda de IA que conoce lo que buscan los empleadores</p>
+                    </div>
+                    <div class="example-card">
+                        <span class="example-emoji">�️</span>
+                        <p><strong>Practicar entrevistas laborales</strong> con simulaciones realistas y feedback inmediato</p>
+                    </div>
+                    <div class="example-card">
+                        <span class="example-emoji">📚</span>
+                        <p><strong>Estudiar cualquier tema</strong> con explicaciones personalizadas a tu nivel</p>
+                    </div>
+                    <div class="example-card">
+                        <span class="example-emoji">�</span>
+                        <p><strong>Buscar trabajo online</strong> con estrategias y herramientas digitales</p>
+                    </div>
+                    <div class="example-card">
+                        <span class="example-emoji">🎨</span>
+                        <p><strong>Mostrar tus habilidades</strong> creando portafolios y perfiles profesionales</p>
+                    </div>
+                    <div class="example-card">
+                        <span class="example-emoji">🔧</span>
+                        <p><strong>Resolver problemas técnicos</strong> paso a paso con asistencia inteligente</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section id="comunidad" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿A quién está dirigido?</h2>
+                <p>Cualquiera con ganas de aprender tiene un lugar aquí</p>
+            </div>
+            <div class="audience-grid">
+                <div class="audience-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>Personas sin acceso a formación técnica</h4>
+                </div>
+                <div class="audience-card">
+                    <i class="fas fa-user-friends"></i>
+                    <h4>Jóvenes que no encuentran oportunidades</h4>
+                </div>
+                <div class="audience-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h4>Adultos que quieren ponerse al día</h4>
+                </div>
+                <div class="audience-card">
+                    <i class="fas fa-user-clock"></i>
+                    <h4>Mayores que quieren entender la tecnología</h4>
+                </div>
+                <div class="audience-card">
+                    <i class="fas fa-heart"></i>
+                    <h4>Cualquiera con ganas de aprender</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimonios</h2>
+                <p>Historias de transformación que esperamos crear juntos</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Antes no sabía usar el celular y ahora hago trámites sola"</p>
+                    <div class="testimonial-author">
+                        <strong>María, 65 años</strong>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Aprendí a arreglar mi compu y a ayudar a otros"</p>
+                    <div class="testimonial-author">
+                        <strong>Carlos, 28 años</strong>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Compartí lo que sé de diseño y conocí gente genial"</p>
+                    <div class="testimonial-author">
+                        <strong>Ana, 34 años</strong>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Conseguí trabajo en un kiosco gracias a que aprendí a usar redes para mostrar mi experiencia"</p>
+                    <div class="testimonial-author">
+                        <strong>Lucía, 26 años</strong>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Aprendí a proteger mis datos y ahora ayudo a otros vecinos con la seguridad online"</p>
+                    <div class="testimonial-author">
+                        <strong>Roberto, 52 años</strong>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Pude volver a estudiar gracias a que ChatGPT me explica todo lo que no entiendo"</p>
+                    <div class="testimonial-author">
+                        <strong>Patricia, 41 años</strong>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Con la IA practico inglés todos los días gratis y ya entiendo mucho más"</p>
+                    <div class="testimonial-author">
+                        <strong>Sofía, 29 años</strong>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Hice mi primer CV digital y conseguí una entrevista de trabajo la semana siguiente"</p>
+                    <div class="testimonial-author">
+                        <strong>Diego, 45 años</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Cómo se construye?</h2>
+                <p>Una metodología horizontal y colaborativa</p>
+            </div>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Personas que enseñan desde su experiencia</h4>
+                        <p>Cada miembro puede compartir sus conocimientos, sin importar su nivel</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Talleres presenciales y virtuales</h4>
+                        <p>Flexibilidad para aprender desde donde sea más cómodo</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>Comunidad horizontal</h4>
+                        <p>Donde nadie es más que nadie, todos aportamos valor</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4>Formación práctica y acompañada</h4>
+                        <p>Aprendizaje hands-on con apoyo constante</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Únete a Nodo Codo a Codo</h2>
+                <p>Tu rol como creador: no sos "el profe experto", sos el conector que crea el espacio</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Listo para ser parte del cambio?</h3>
+                    <p>Ya sea que quieras aprender, enseñar, o simplemente formar parte de esta comunidad, hay un lugar para vos.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>contacto@nodocodoancodo.org</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+54 11 1234-5678</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Buenos Aires, Argentina</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" method="post" novalidate>
+                        <!-- Honeypot field for spam protection -->
+                        <div style="display: none;">
+                            <input type="text" name="website" tabindex="-1" autocomplete="off">
+                        </div>
+                        
+                        <!-- CSRF Protection Token (would be generated server-side) -->
+                        <input type="hidden" name="csrf_token" value="" id="csrfToken">
+                        
+                        <div class="form-group">
+                            <input type="text" 
+                                   id="name" 
+                                   name="name" 
+                                   placeholder="Tu nombre" 
+                                   required 
+                                   maxlength="100"
+                                   pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]{2,100}"
+                                   autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" 
+                                   id="email" 
+                                   name="email" 
+                                   placeholder="Tu email" 
+                                   required
+                                   maxlength="255"
+                                   autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" name="interest" required>
+                                <option value="">¿Cómo querés participar?</option>
+                                <option value="aprender">Quiero aprender para conseguir trabajo</option>
+                                <option value="reinsercion">Busco reinserción laboral</option>
+                                <option value="enseñar">Quiero enseñar y ayudar a otros</option>
+                                <option value="mentor">Quiero ser mentor</option>
+                                <option value="ia-tutor">Me interesa aprender con IA como tutor</option>
+                                <option value="cv-entrevistas">Necesito ayuda con CV y entrevistas</option>
+                                <option value="digital-basico">Quiero alfabetización digital básica</option>
+                                <option value="colaborar">Quiero colaborar como voluntario</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" 
+                                      name="message" 
+                                      placeholder="Contanos un poco más sobre vos y tus intereses"
+                                      maxlength="1000"
+                                      rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <span class="btn-text">Enviar mensaje</span>
+                            <span class="btn-loading" style="display: none;">Enviando...</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Nodo Codo a Codo</h4>
+                    <p>Tecnología accesible. Aprendizaje real. Juntos.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#que-es">¿Qué es?</a></li>
+                        <li><a href="#aprendizaje">Aprendizaje</a></li>
+                        <li><a href="#comunidad">Comunidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nodo Codo a Codo. Proyecto sin fines de lucro.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Security Indicator (Development) -->
+    <div class="security-indicator" id="securityIndicator">
+        🔒 Sitio Seguro - Protegido contra XSS, CSRF y ataques comunes
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
