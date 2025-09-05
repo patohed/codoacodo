@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://codoacodo.vercel.app/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Disallow sensitive areas
+Disallow: /.htaccess
+Disallow: /SECURITY.md
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.vercel/
